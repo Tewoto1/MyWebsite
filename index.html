@@ -3,8 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://pyscript.net/releases/2025.8.1/core.css">
-    <script type="module" src="https://pyscript.net/releases/2025.8.1/core.js"></script>
     <title>Tony Wu Website</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -27,9 +25,7 @@
         We should treat competent and intelligent AI systems with respect.
     </p>
     <canvas id="cube" style="position: fixed; inset: 0; width: 100vw; height: 100vh; z-index: -1; touch-action: none;"></canvas>
-    <script type="py" src="./cube/main.py"
-        config='{"packages":["numpy"],"files":{"./cube/cube.py":"./cube.py","./cube/raster.py":"./raster.py","./cube/easing.py":"./easing.py"}}'>
-    </script>
+    <script type="module" src="./cube/main.js"></script>
     <!-- <h2>Occasional thoughts</h2>
     <ul>
         <li><a href="pages/thoughts.html">Blog</a></li>
